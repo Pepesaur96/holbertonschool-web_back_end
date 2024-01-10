@@ -1,7 +1,2 @@
-// 2-insert
-// script that inserts a document in the collection school
-db.school.insert(
-    {
-      name: "Holberton school"
-    }
-  )
+// script that creates or uses the database my_db
+create my_db

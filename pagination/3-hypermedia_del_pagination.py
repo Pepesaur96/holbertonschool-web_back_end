@@ -39,6 +39,9 @@ class Server:
             }
         return self.__indexed_dataset
 
+    def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
+        pass
+
     def get_hyper_index(self, index: int = 0, page_size: int = 10) -> Dict:
         """Return a dictionary of pagination data"""
         assert isinstance(index, int) and index >= 0

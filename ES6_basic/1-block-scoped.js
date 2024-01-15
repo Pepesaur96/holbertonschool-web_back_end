@@ -2,9 +2,8 @@ export default function taskBlock(trueOrFalse) {
   var task = false;
   var task2 = true;
   if (trueOrFalse) {
-    let task = true;   // Use let instead of var
-    let task2 = false;  // Use let instead of var
-}
+  var innerTask = true;   // Renamed from task
+  var innerTask2 = false;  // Renamed from task2
 }
   return [task, task2];
-}
+  }

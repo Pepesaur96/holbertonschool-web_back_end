@@ -6,4 +6,4 @@ export default function taskBlock(trueOrFalse) {
   var innerTask2 = false;  // Renamed from task2
 }
   return [task, task2];
-  }
+}

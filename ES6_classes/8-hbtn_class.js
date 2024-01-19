@@ -28,6 +28,6 @@ export default class HolbertonClass {
     if (hint === 'string') {
       return this._location;
     }
-      return null;
+    return null;
   }
 }

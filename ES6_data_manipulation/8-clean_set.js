@@ -2,7 +2,8 @@
 // the set values that start with a specific string (startString).
 
 export default function cleanSet(set, startString) {
-  if (startString === '') {
+  if (startString !== 'object' || startString !== 'string'
+    || startString.length === 0) {
     return '';
   }
   const str = [];

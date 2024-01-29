@@ -12,7 +12,7 @@ export default function cleanSet(set, startString) {
   set.forEach((element) => {
     if (element && element.startsWith(startString)) {
       str.push(element.slice(startString.length));
-      }
-    });
+    }
+  });
   return str.join('-');
 }
